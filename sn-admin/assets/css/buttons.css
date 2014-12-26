@@ -1,0 +1,148 @@
+/*
+	Buttons stylishing
+	@author nacerbo
+*/
+
+/*.btn , input[type="submit"], input[type="button"], button {
+	display: inline-block;
+	padding: 4px 12px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	text-align: center;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #F5F5F5;
+	background-image: linear-gradient(to bottom, #FFF, #E6E6E6);
+	background-repeat: repeat-x;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
+}*/
+.btn , .flat-btn {
+	display: inline-block;
+	padding: 4px 12px;
+	margin: 3px 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ecf0f1;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #F5F5F5;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+	border-radius: 4px;
+	box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.flat-btn:active {
+	margin-top: 3px;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all .1s linear;
+	   -moz-transition: all .1s linear;
+	    -ms-transition: all .1s linear;
+	     -o-transition: all .1s linear;
+	        transition: all .1s linear;
+	background: #eee;
+}
+/*------------ 		Colors  	-----------*/
+.flat-blue{
+	background: #2980b9;
+	box-shadow: 0px 3px 0px #3498db;
+}
+.flat-blue:active{
+	background: #3498db;
+	box-shadow: 0px 0px 0px #3498db;
+}
+
+.flat-dgreen{
+	background: #16a085;
+	box-shadow: 0px 3px 0px #1abc9c;
+}
+.flat-dgreen:active{
+	background: #1abc9c;
+	box-shadow: 0px 0px 0px #1abc9c;
+}
+
+.flat-green{
+	background: #27ae60;
+	box-shadow: 0px 3px 0px #2ecc71;
+}
+.flat-green:active{
+	background: #2ecc71;
+	box-shadow: 0px 0px 0px #2ecc71;
+}
+
+.flat-red{
+	background: #c0392b;
+	box-shadow: 0px 3px 0px #e74c3c;
+}
+.flat-red:active{
+	background: #e74c3c;
+	box-shadow: 0px 0px 0px #e74c3c;
+}
+
+.flat-violet{
+	background: #8e44ad;
+	box-shadow: 0px 3px 0px #9b59b6;
+}
+.flat-violet:active{
+	background: #9b59b6;
+	box-shadow: 0px 0px 0px #9b59b6;
+}
+
+.flat-orange{
+	background: #f39c12;
+	box-shadow: 0px 3px 0px #f1c40f;
+}
+.flat-orange:active{
+	background: #f1c40f;
+	box-shadow: 0px 0px 0px #f1c40f;
+}
+
+.flat-dorange{
+	background: #d35400;
+	box-shadow: 0px 3px 0px #e67e22;
+}
+.flat-dorange:active{
+	background: #e67e22;
+	box-shadow: 0px 0px 0px #e67e22;
+}
+
+/*	Links stylishing	*/
+a.flat-btn{
+	color: #ecf0f1 !important;
+}
+.block{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+}
+.block:active{
+	margin-top: 10px;
+}
+
+/*		Buttons size	*/
+
+.smallbtn{
+	font-size: 10px !important;
+	line-height: 1.2 !important;
+}
+
+.bigbtn{
+	font-size: 18px !important;
+	line-height: 1.6 !important;
+}
+
+.hugebtn{
+	font-size: 22px !important;
+	line-height: 1.8 !important;
+}

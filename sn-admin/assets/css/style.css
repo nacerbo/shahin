@@ -1,0 +1,181 @@
+/*
+	
+*/
+/*	Reset code 	*/
+@import url("reset.css");
+
+@import url("font-awesome.css");
+@import url("checkbox.css");
+/* container stylishing */
+@import url("dashboard.css");
+/* posts stylishing */
+@import url("posts.css");
+/* login-page stylishing */
+@import url("login-page.css");
+/* Buttons stylishin    */
+@import url("buttons.css");
+/* inputs stylishin    */
+@import url("inputs.css");
+/*------------------------------font-face----------------------------------*/
+@font-face {
+	font-family:"nacerbo DroidKufi";
+	src : url('../fonts/DroidKufi-Regular.ttf');
+}
+@font-face {
+	font-family:"nacerbo DroidKufi-Bold";
+	src : url('../fonts/DroidKufi-Bold.ttf');
+}
+
+/*	 Reset code 	*/
+
+
+/*
+	Contorl panel header
+*/
+
+/*----------------------------------------*/
+	/*---------- users header toolbar ---------*/
+		.user-menu{
+			height: 40px;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 99;
+			background-color: #2c3e50;
+		}
+
+		.user-menu .menu li{
+			float: right;
+			padding: 10px 4px;
+			margin-left: 5px;
+			height: 40px;
+			display: block;
+		}
+		.user-menu .menu > li:hover{
+			background: #34495e;
+		}
+		.user-menu .menu li.first{
+			width: 40px;
+			text-align: center;
+		}
+		.user-menu a{
+			color: #ecf0f1;
+			font-weight: bold;
+		}
+		.user-menu a:hover{
+			color: #3498db;
+		}
+		.user-menu a:active{
+			color: #e74c3c;
+		}
+		.user-menu .menu li ul.child-menu{
+			min-width: 150px;
+			padding: 5px;
+			position: absolute;
+			background: #efefef;
+			margin: 2px -4px;
+			display: none;
+			z-index: 999;
+			border: medium none;
+			box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3)
+		}
+		.user-menu .menu li:hover ul.child-menu{
+			float: none;
+			display: block;
+		}
+		.user-menu .menu li ul.child-menu li{
+			float: none;
+			display: block;
+			text-align: right;
+		}
+
+		.user-menu .menu li ul.child-menu a{
+			color: #2c3e50;
+			display: block;
+		}
+		.user-menu .menu li ul.child-menu a:hover{
+			color: #3498db;
+		}
+		.user-menu .menu li ul.child-menu a:active{
+			color: #e74c3c;
+		}
+		.right {
+			float: right;
+		}
+		.left {
+			float: left;
+			margin-left: 150px;
+			left: 0;
+		}
+	/*---------- users header toolbar ---------*/
+/*-------------------- header styling ------------------*/ 
+	.header{
+		position: fixed;
+		top: 40px;
+		left: 0px;
+		height: 142px;
+		width: 100%;
+		background: #2c3e50; /*url("../imgs/logo.png") center no-repeat*/ 
+		overflow: hidden;
+		padding: 20px 0;
+		color: #ecf0f1;
+		/*transition: height 0.4s ease 0s, padding 0.4s ease 0s;*/
+		transition: height 0.4s cubic-bezier(0.24, -0.12, 0, 1.95) 0s, padding 0.4s ease 0s;
+		border: medium none;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+		z-index: 97;
+	}
+	.header a{
+		color: #2c3e50;
+		font-weight: bolder;
+	}
+	.header a:hover{
+		color: #3498db;
+	}
+	.header a:active{
+		color: #ecf0f1;
+	}
+	#header_logo {
+		margin: 5px auto;
+		display: block;
+		height: 48px;
+		transition: height 0.4s linear 0s, width 0.4s linear 0s;
+	}
+	.header .menu{
+		width: 100%;
+		margin: 10px auto;
+		color: #2c3e50;
+		background: #ecf0f1;
+		height: 100px;
+	}
+	.header #top-menu{
+		width: 75%;
+		margin: auto;
+	}
+	.header .menu li{
+		float: right;
+		padding: 0px;
+		height: 60px;
+		min-width:120px;
+	}
+	.header .menu li a{
+		padding: 10px 8px 10px;
+		height: 60px;
+		display: block;
+	}
+	.header .menu li:hover{
+		border-bottom: 5px solid #16a085;
+	}
+	.header .menu li:active{
+		border-bottom: 5px solid #c0392b;
+		background-color: #e74c3c;
+		color: #ecf0f1;
+	}
+	.small #header_logo {
+		height: 60px;
+	}
+	.small #header_logo:hover {
+		opacity: .8;
+	}
+/*-------------------- header styling ------------------*/ 
+/* end*/

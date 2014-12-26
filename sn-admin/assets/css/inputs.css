@@ -1,0 +1,32 @@
+/*
+	Inputs stylishing
+*/
+
+input[type="mail"], input[type="password"], input[type="text"], textarea {
+	color: #2c3e50;
+	border: 0.1em solid #2c3e50;
+	display: block;
+	resize: none;
+	margin: 0px 0px 8px;
+	padding: 6px 7px;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	outline: 0px none;
+	transition: border-color 0.05s ease-in-out 0s;
+	width: 100%;
+}
+
+textarea {
+	color: #2c3e50;
+	border: 0.1em solid #2c3e50;
+	display: block;
+	resize: none;
+	min-height: 90px;
+	max-height: 1300px;
+	margin: 0px 0px 8px;
+	padding: 6px 7px;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	outline: 0px none;
+	width: 100%;
+}

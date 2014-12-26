@@ -1,0 +1,53 @@
+/* login stylishing */
+#login-container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.sn-logo{
+	width: 242px;
+	height: 115px;
+	background: url("../imgs/logo.png") center no-repeat;
+	margin: 10px auto;
+}
+.login-board{
+	width: 40%;
+	margin: 20px auto;
+	padding-top: 20px;
+
+}
+.login-board .title {
+	text-align: center;
+	border-bottom: 1px solid #EEE;
+    box-shadow: none;
+    line-height: 1.8em;
+    font-size: 20px;
+    font-style: normal;
+	padding: 8px 12px;
+	margin: 0px;
+}
+
+.login-form{
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+	border: 1px solid #E5E5E5;
+	padding: 20px;
+}
+
+.login-form .login-rtext {
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #EEE;
+}
+
+.login-form .label-text:before {
+    font-size: 22px !important;
+}
+
+.msg2{
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	background: #e67e22;
+	color: #ecf0f1;
+}

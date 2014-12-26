@@ -1,0 +1,79 @@
+/*
+	custom checkbox stylishing
+*/
+
+label {
+	cursor: pointer;
+	padding: 10px;
+}
+
+input[type="checkbox"] {
+	display: none;
+	
+}
+.label-text:before{
+	font-family: 'FontAwesome';
+	font-size: 16px;
+	content:"\f058";
+	margin-left: 5px;
+	color: #2980b9;
+	width: 1em;
+	display: inline-block;
+	speak : none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-transform: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+input[type="checkbox"] + .label-text:before{
+	content:"\f096";
+}
+
+input[type="checkbox"]:checked + .label-text:before {
+	content:"\f14a";
+	animation: tick 180ms;
+	-webkit-animation: tick 180ms;
+}
+input[type="checkbox"]:checked{
+	content:"\f14a";
+	animation: tick 180ms;
+	-webkit-animation: tick 180ms;
+}
+input[type="checkbox"]:disabled + .label-text:before {
+	content:"\f0c8";
+	color: #bdc3c7;
+}
+input[type="checkbox"]:disabled + .label-text {
+	color: #bdc3c7;
+}
+
+@keyframes tick {
+	0% {
+		transform: scale(0);
+	}
+
+	60% {
+		transform: scale(1.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@-webkit-keyframes tick {
+	0% {
+		transform: scale(0);
+	}
+
+	60% {
+		transform: scale(1.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}

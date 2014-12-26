@@ -1,0 +1,99 @@
+/*
+	dashboard stylishing
+*/
+
+/*--------------------------- main code -----------------------*/
+p ,a, input{
+	font-family:'nacerbo DroidKufi',tahoma,arial,'acme';
+}
+
+#container{
+	width:90%;
+	background: #fff;
+	min-height: 485px;
+	margin: 200px auto 0px;
+}
+
+/*		Rows		*/
+.half-row,.third-row ,.two_third ,.fourth-row{
+	position:relative;
+	margin-left:2%;
+	float:right;
+}
+.half-row {width:48%}
+.third-row { width:30.66%}
+.two_third { width:65.33%}
+.fourth-row { width:22%}
+.entry .last{
+	margin-right:0 !important;
+	clear:right;
+}
+
+/***-------------------- News section -----------------***/
+.script-news{
+	width: 90%;
+	margin: 15px auto;
+	padding-top: 20px;
+}
+
+.script-news .section-title {
+	/*box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);*/
+	border-bottom: 1px solid #EEE;
+    box-shadow: none;
+    line-height: 1.4em;
+    font-size: 14px;
+    font-style: normal;
+	padding: 8px 12px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.script-news .section-content, .script-news .section-title {
+	padding: 10px;
+}
+
+
+.script-news .section-content a {
+	color: #2980b9;
+}
+.script-news .half-row  {
+	background: #fefefe;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+	border: 1px solid #E5E5E5;
+}
+
+.small{
+	font-size: 10px;
+	font-family: tahoma;
+	color: #666;
+	font-style: italic;
+}
+.tyni-draft , .tyni-draft > p {
+	font-size: 12px;
+}
+
+.tyni-draft > p {
+	font-family: tahoma ,arial;
+}
+
+/*
+	
+*/
+
+.no-content{
+	text-align: center;
+	background: #fefefe;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+	border: 1px solid #E5E5E5;
+	padding: 10px;
+	margin: 10px auto;
+
+}
+
+/*	Footer	*/
+.footer {
+    width: 70%;
+    margin: 15px auto;
+    border-top: 1px solid #EEE;
+    text-align: center;
+}
